@@ -1,17 +1,7 @@
-{
-  "devDependencies": {
-    "chai": "^4.3.6",
-    "ethereum-waffle": "^3.4.4",
-    "ethers": "^5.6.9",
-    "hardhat": "^2.22.17",
-    "hardhat-deploy": "^0.14.0",
-    "hardhat-ethers": "^1.0.1"
-  },
-  "dependencies": {
-    "18": "^0.0.0",
-    "@uniswap/v3-core": "^1.0.1",
-    "@uniswap/v3-periphery": "^1.4.4",
-    "dotenv": "^16.4.7",
-    "node": "^22.13.0"
-  }
-}
+require("@nomiclabs/hardhat-waffle");
+require("@nomiclabs/hardhat-ethers");
+require("dotenv").config();
+
+const SEPOLIA_RPC_URL = process.env.SEPOLIA_RPC_URL;
+const MAINNET_RPC_URL = process.env.MAINNET_RPC_URL;
+const PRIVATE_KEY = process.env.PRIVATE_KEY;
