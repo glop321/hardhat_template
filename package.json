@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "18": "^0.0.0",
+    "@uniswap/sdk": "^3.0.3",
+    "@uniswap/sdk-core": "^3.2.2",
     "@uniswap/v3-core": "^1.0.1",
     "@uniswap/v3-periphery": "^1.4.4",
     "dotenv": "^16.4.7",
